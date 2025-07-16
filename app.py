@@ -3,9 +3,9 @@ import pickle
 import pandas as pd
 import requests
 
-mov_data=pickle.load(open('md.pkl', 'rb'))
+mov_data=pickle.load(open('movie_dict.pkl', 'rb'))
 movie=pd.DataFrame(mov_data)
-sim=pickle.load(open('sim.pkl', 'rb'))
+sim=pickle.load(open('similarity.pkl', 'rb'))
 
 st.title('Movie Recommondation')
 
