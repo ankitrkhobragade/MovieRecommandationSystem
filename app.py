@@ -5,7 +5,7 @@ import requests
 
 mov_data=pickle.load(open('movies_dict.pkl', 'rb'))
 movie=pd.DataFrame(mov_data)
-sim=pickle.load(open('similarity.pkl', 'rb'))
+sim=pickle.load(open('similarity.pbz2', 'rb'))
 
 st.title('Movie Recommondation')
 
